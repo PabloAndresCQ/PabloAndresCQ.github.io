@@ -1,0 +1,35 @@
+body {
+  font-size: 16px;
+  font-family: calibri;
+  background: url("background.jpg");
+  background-size: cover;
+  background-position: 100% 33%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+i {
+  font-family: georgia;
+  font-size: 16px;
+}
+
+/* unvisited and visited link */
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: gray;
+}
+
+li {
+  margin: 1ex 0;
+}

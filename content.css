@@ -1,0 +1,96 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#column {
+  z-index: -1;
+  margin: 0;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  width: 800px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+#banner {
+  font-size: 20px;
+  margin: 0;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  width: 800px;
+  height: 150px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+
+#banner h1 {
+  font-size: 175%;
+  margin-bottom: 0px;
+}
+
+#banner #photo {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 240px;
+  height: 138px;
+  object-fit: cover;
+  border: 1px solid gray;
+}
+
+#banner #info {
+  margin: 0;
+  position: absolute;
+  left: 260px;
+  top: 50px;
+  transform: translate(0%, -50%);
+}
+
+#banner #menu {
+  margin: 0;
+  position: absolute;
+  left: -13px;
+  top: 133px;
+  width: 553px;
+  padding-top: 3px;
+  font-size: 125%;
+  text-align: center;
+  word-spacing: 40px;
+  overflow: hidden;
+}
+
+#banner #menu #current {
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  border-bottom: none;
+}
+
+#banner #menu a {
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-right: 11px;
+  padding-left: 11px;
+}
+
+#content {
+  font-size: 19px;
+  margin-top: 20px;
+  margin-left: 5px;
+  position: absolute;
+  left: 50%;
+  top: 130px;
+  transform: translate(-50%,0%);
+  width: 750px;
+}
